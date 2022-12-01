@@ -1,0 +1,259 @@
+<html>
+	<head>
+				<link rel="stylesheet" type="text/css" href="bim.css"/>
+				<title>BIM PowerPoint #3 Web Version by Jayden</title>
+				
+				<style>
+															* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #0c192c;
+	overflow-x: hidden;
+	overflow-wrap: word-break;
+}
+
+
+.glowtext {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+ul li {
+	position: relative;
+	list-style: none;
+	transform: translate(0, 1000%);
+}
+
+ul li a {
+	position: relative;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 1em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+}
+
+ul li a::before {
+	content: attr(data-text);
+	position: absolute;
+	color: #fff;
+	width: 0%;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 8px solid var(--clr);
+	-webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before {
+	width: 100%;
+	filter: drop-shadow(0 0 25px var(--clr));
+}
+
+/*
+Var Glowing Text End
+*/ 
+
+.textfront {
+	text-align: center;
+	color: 	#ff6057;
+	filter: drop-shadow(0 0 25px var(--clr));
+	padding: 0px;
+	margin: 0px;
+	text-shadow: 0 0 20px #ff6057;
+}
+
+
+.parallax {
+	margin: 0;
+	padding: 0;
+}
+
+.parallax .txt {
+	box-sizing: border-box;
+	min-height: 100vh;
+	position: relative;
+}
+
+.parallax .imgp {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	display: grid;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.parallax .imgp:hover {
+	filter: drop-shadow(0 0 1px #fff);
+	transition: all 0.2s ease-out;
+}
+
+.parallax .imgp:active {
+	filter: drop-shadow(0 0 15px #fff);
+	filter: blur (100px #ccc);
+	transition: all 0.01s ease-out;
+}
+
+.parallax .txt:before {
+	background: 50% 50% / cover;
+}
+
+.txt::before {
+	bottem: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	min-height: 100vh;
+}
+
+.strong1 {
+	color: #F4364C;
+	text-align: center;
+	text-shadow: 0 0 3px #F4364C,
+	0 0 10px #F4364C;
+	font-size: 25;
+	position: relative;
+	width: 100%;
+	outline: none;
+	font-weight: normal;
+}
+
+.strong2 {
+	color: #ccc;
+	text-align: center;
+	text-shadow: 0 0 3px #ccc;
+	0 0 10px #ccc;
+	font-size: 25;
+	position: relative;
+	width: 100%;
+	outline: none;
+	font-weight: normal;
+}
+
+.strong3 {
+	color: #F4364C;
+	text-align: center;
+	text-shadow: 0 0 10px #F4364C;
+	font-size: 25;
+	position: relative;
+	width: 100%;
+	outline: none;
+	font-weight: normal;
+}
+
+.p1 {
+	color: #fff;
+	text-align: center;
+	font-size: 25;
+}
+
+.p2 {
+	color: #fff;
+	text-align: center;
+	font-size: 25;
+	text-shadow: 0 0 7px #ccc;
+}
+
+.graytext {
+	color: #ccc;
+	font-weight: normal;
+}
+				</style>
+	</head>
+		<body>
+			<div class="textfront">
+				<h1>BIM PowerPoint #3<h1>
+			</div>
+			<br></br>
+			
+			<div class="parallax">
+				<div class="txt">
+					<div class="p1">I would like to be a professional <strong class="strong1">Web Developer</strong><strong class="strong2"> (at google)</strong></div>
+					<br></br>
+					<img src="img1.png" class="imgp">
+					<br></br>
+					<div class="p2">
+					<div></div>
+					<strong class="strong3">What is a web developer?</strong>
+					<br></br>
+					Professional web developers, or "Full-stack" web developers<br></br>
+					are developers whom focus on both front-end and back-end web devleopment.
+					<br></br>
+					<br></br>
+					Front-end web developers primarially focus on the design within allowing the suer to access<br></br>
+					and interact with the site. Meanwhile, back-end developers maintain the mechanisms that<br></br>
+					that process data and perform actions on websites.<br></br><br></br>
+					<strong class="strong3">Salary</strong>
+					<br></br>
+					Base salary of web developers at Google is 129.9k per year<br></br>
+					Average salary of web developers at Google is 190.4k per year.<br></br>
+					Sign-up bonus is on average $75k<br></br>
+					Performance Bonus on average is 20%<br></br>
+					Each raise is adds average $20k per year<br></br><br></br>
+					<strong class="strong3">What do they do?</strong><br></br>
+					Google Web developers design HTML5 ads, images, videos, and other content.
+					using an intefrated visual and code interface. They also usually have to design the view,
+					add element support for a multitude of devices and browsers, and animating those elemtns.
+					The main languages Google Web Developers use are: HTML5, CSS, and JavaScript.<br></br>
+					<img src="2.webp" class="imgp">
+					<br></br>
+					<strong class="strong3">What are the requirements?</strong>
+					<br></br>
+					Batchelor's degree <strong class="graytext">(or a equivalent practical experience)</strong><br></br>
+					5 Years of experience with software development in one or more progamming languages and with data structures/algorithms<br></br>
+					3 Years of experience testing, maintaining, and/or launching software products, and 1 year of experience with software design and architecture<br></br>
+					3 Years of experience with front-end frameworks, full-stack development, and / or API development.
+					<br></br><br></br>
+					<strong class="strong3">How would I get a job at Google?</strong><br></br>
+					I would recommend starting development, especially web-development considering it pays as well as Java programmers
+					despite web development being much easier, due to the high demand.<br></br>
+					Web-Development is honestly surprisingly easy to learn and use, and I recommend anyone that is tech-savvy to get into it due to it often being an influence
+					or motivation to learn more programming languages in the future which opens many career gateways.<br></br>
+					Spam Google with your resume and hope you get accepted, or just work at McDonalds, because.. you can.
+					<br></br><br></br>
+					<strong class="strong3">Pros</strong><br></br>
+					Flexxing rights<br></br>
+					Some people would be amazed<br></br>
+					Some people may want to be your friend<br></br>
+					Attention<br></br>
+					You can make your own websites<br></br>
+					You can freelance with more flexibility<br></br>
+					Larger career diversity<br></br>
+					People whom made PowerPoints are be jealous that my "PowerPoint" is better than theirs.
+					You'll be able to make a entire websites for one single project in two days just to flex your ability at just age 13<br></br><br></br>
+					<strong class="strong3">Cons</strong><br></br>
+					People can be nosey<br></br>
+					People may critize you despite them lacking experience<br></br>
+					Programming isn't as fun as all those "hacker videos" are, in reality it is insanely boring.<br></br>
+					
+					<strong class="strong3">Wrapup</strong><br></br>
+					Google Web Developers have a harsh time budget usually, and is rather stressful. However, they offer HQs as an work environment which includes 3 meals, ability to bring cats or dogs, massages, and a lot more. The pay is also great especially for something such as web developers.<br></br><br></br><br></br>
+					This took me 752 lines of code, I hope I get a 100 ;)
+					
+					</div>
+				</div>
+			</div>
+		</body>
+</html>
